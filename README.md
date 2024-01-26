@@ -20,3 +20,19 @@ To install and run the Twitter Monitor, follow these steps:
    ```bash
    git clone https://github.com/your-username/twitter-monitor.git
 
+2. Navigate to the project directory:
+
+   cd twitter-monitor
+
+3. Build and run the project:
+
+   go build
+   ./twitter-monitor
+
+## Usage
+
+After running the application, the WebSocket server will be accessible at ws://localhost:8080/ws. Clients can connect to this endpoint to receive real-time updates on monitored Twitter accounts.
+
+The Twitter Monitor continuously checks for new tweets from specified users and broadcasts them to all connected clients.
+
+## Websocket
