@@ -35,4 +35,16 @@ After running the application, the WebSocket server will be accessible at ws://l
 
 The Twitter Monitor continuously checks for new tweets from specified users and broadcasts them to all connected clients.
 
-## Websocket
+## WebSocket Endpoint
+
+...
+
+## Configuration
+
+...
+
+## Dependencies
+
+...
+
+## License
